@@ -57,6 +57,7 @@ STRICT_C_OPTIONS = select({
         "-Wno-strict-aliasing",
         "-Wshadow",
         "-Wsign-compare",
+        "-Wno-format-overflow",
     ],
 })
 
